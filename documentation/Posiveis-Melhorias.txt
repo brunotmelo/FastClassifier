@@ -1,0 +1,12 @@
+
+Versão atual:
+	A dificuldade de entender o código e modularizar as funções do jAudio e ACE é grande. Visto que quem irá usar esta ferramenta estará precisando de velocidade, a versão atual não da suporte a alguns comandos (lentos) que automatizam o processo no ACE e no jAudio.
+
+
+Melhorias propostas:
+	*Modificar o método de recebimento de parâmetros(fastclassifier.options.Parameters) para que eles possam ser setados em tempo de execução.
+
+	Função separada para ler arquivo xml de settings do jaudio e receber os parâmetros automaticamente.
+
+	Função separada para ler um arquivo de taxonomia e receber as classes automaticamente.
+

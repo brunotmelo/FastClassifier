@@ -1,0 +1,26 @@
+fastclassifier.options.Parameters.java
+
+A classe de parâmetros serve para selecionar as opções de extração e classificação da ferramenta.
+
+As funções são bem simples de serem entendidas. O complicado é saber o que cada uma significa. 
+Este manual apenas divide as funções por programa e explica onde encontrar os parâmetros necessário para cada uma.
+
+jAudio(extração de features):
+	variáveis: windowSize, windowOverlap, samplingRate, normalise, perWindowStats, overallStats
+		Estes parâmetros são encontrados no arquivo de settings do jAudio("jaudio-settings.xml") logo no inicio.
+
+	getFeatures()
+		Também encontrado no jaudio-settings. A maioria dos nomes de features contido no arquivo tem correspondência nesta função. 
+		*As features que não tem correspondência no fastClassifier não foram implementadas. Algumas features do jAudio não funcionam. Todas as que foram passadas para o fastClassifier funcionam.
+
+	getAggList()
+		Encontrado no jaudio-settings. No final do arquivo, há indicação de quais aggregators serão usados.
+
+ACE(classificação):
+	getClassifierPath()
+		O caminho do arquivo .model que deve ser o usado para classificação.
+
+	getTaxonomy()
+		A taxonomia(taxonomy.xml) é o arquivo que contém as classes possíveis para um determinado classificador. Dentro do taxonomy.xml tem nomes dentro de <class names>. Cada um dos class names deve ser adicionado na taxonomia.
+
+

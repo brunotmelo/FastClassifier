@@ -1,0 +1,9 @@
+
+Limitações:
+	Classificação. 
+		Para o áudio ser classificado corretamente. É necessário que as features sejam enviadas na mesma ordem que foram enviadas na criação do classificador. 
+		A classificação do ACE aparentemente não leva em consideração nomes das features, só seu índice.
+
+		A ordem das features no Parameters.java, segue a mesma do jAudio. Se houverem erros na execução, cheque se as features extraídas na classificação foram as mesmas da criação.
+
+	

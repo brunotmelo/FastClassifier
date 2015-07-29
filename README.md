@@ -1,5 +1,5 @@
 # FastClassifier
-Fast and flexible toolkit for classifying audios.
+Fast and flexible toolkit for classifying audios. It uses methods of jAudio and ACE(http://jmir.sourceforge.net/)
 
 To a guide on how to use it, try following the fassclassifier.FastClassifier class.
 There is also a guide in Portugues located under documentation. I will add an english one as soon as I can.
